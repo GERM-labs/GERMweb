@@ -90,6 +90,21 @@
             text-decoration-color: #4a5568;
         }
         
+        .footer-links {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.5rem;
+            font-size: 0.85rem;
+        }
+        .footer-links a {
+            color: #a0aec0;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            color: #4a5568;
+            text-decoration: underline;
+        }
+
         /* New Coming Soon styling */
         .coming-soon {
             position: fixed;
@@ -104,6 +119,11 @@
         @media (max-width: 600px) {
             h1 { font-size: 2.5rem; }
             p { font-size: 1.25rem; }
+            .footer-links {
+                bottom: 1rem;
+                left: 1rem;
+                font-size: 0.75rem;
+            }
             .coming-soon {
                 bottom: 1rem;
                 right: 1rem;
@@ -118,6 +138,9 @@
         <p><a href="https://www.wired.com/2009/08/ff-goodenough/" target="_blank" rel="noopener noreferrer">Good Enough</a> Research Machines</p>
     </div>
     
+    <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+    </div>
     <div class="coming-soon">Coming soon</div>
 </body>
 </html>
